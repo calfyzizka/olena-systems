@@ -655,6 +655,34 @@
       text-decoration: none;
     }
 
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .btn-linkedin {
+      display: inline-block;
+      background: #0077B5;
+      color: #fff !important;
+      font-family: 'Onest', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      margin-top: 8px;
+    }
+
+    .btn-linkedin:hover {
+      background: #005885;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,119,181,0.3);
+    }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 900px) {
       .hero {
@@ -927,7 +955,8 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2026 Олена Мірошніченко · <a href="mailto:olena.systems@gmail.com">olena.systems@gmail.com</a></p>
+  <p>© 2026 Олена Мірошніченко</p>
+  <a href="https://www.linkedin.com/in/olena-miroshnichenko1/" class="btn-linkedin" target="_blank" rel="noopener">Написати в LinkedIn</a>
 </footer>
 
 </body>
